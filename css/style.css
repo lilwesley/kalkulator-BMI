@@ -1,0 +1,104 @@
+.card {
+  background-color: rgb(221, 218, 218);
+  padding: 1em 2em;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+}
+
+.form-wrapper {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+input [type="text"] {
+  width: 90%;
+  align-items: column;
+}
+
+.icon {
+  width: 1%;
+  border: 1px solid gray;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 50%;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: none;
+}
+
+.input-background {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+input {
+  border: none;
+  margin-left: 10px;
+  background: transparent;
+}
+
+span {
+  margin-left: 5px;
+}
+
+.input-radio {
+  cursor: pointer;
+}
+
+input:focus {
+  outline: none;
+}
+
+.button-first {
+  background-color: cyan;
+  border: none;
+  margin-top: 15px;
+  margin-right: 10px;
+  padding: 10px 9px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.button-second {
+    background-color: none;
+    border: 1px solid #888;
+    margin-top: 15px;
+    margin-right: 10px;
+    padding: 10px 9px;
+    border-radius: 5px;
+    color: #888;
+    cursor: pointer;
+    font-weight: 600;
+}
